@@ -1,0 +1,37 @@
+.Line_graph {
+    display: flex;
+    column-gap: 40px;
+    width: 100%;
+    background-color: #1A1D1D;
+    padding: 24px 40px;
+}
+
+.Graphic {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 940px;
+}
+
+.Mark {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.Graphic__indicator {
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 20px;
+}
+
+.Indicator__title {
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 0.4;
+}
+
+.Indicator__value{
+    font-size: 22px;
+    line-height: 28px;
+}
