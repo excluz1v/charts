@@ -1,3 +1,8 @@
+import {Graphic} from "../../components/Graphic";
+
 export const Home = ()=>{
-    return <></>
+    return <section>
+        <h1>Overview</h1>
+<Graphic />
+    </section>
 }

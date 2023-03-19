@@ -2,4 +2,6 @@
     display: flex;
     justify-content: space-between;
     height: 64px;
+    border-bottom: 1px solid #272829;
+    padding: 0 10px;
 }

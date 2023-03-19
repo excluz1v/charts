@@ -5,7 +5,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,7 +23,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: inherit;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -47,4 +46,10 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.App {
+  max-width: 1440px;
+  width: 100%;
+  background-color: #0F0F10;
 }
