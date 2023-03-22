@@ -1,0 +1,25 @@
+.Table {
+    background: #1A1D1D;
+    color: #fff;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.Table__cell {
+    background: #1A1D1D;
+}
+
+.Table__header {
+    background: #1A1D1D;
+    text-transform: capitalize;
+    display: flex;
+    column-gap: 10px;
+}
+.Table__header_data {
+    color: rgba(255,255,255,0.4);
+
+}
+.Table__data {
+    color: #fff;
+
+}

@@ -1,0 +1,25 @@
+.Performance__table {
+    margin-top: 25px;
+    border-radius: 12px;
+
+    display: flex;
+    column-gap: 24px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Table__header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.Table__wrapper {
+   max-width: 50%;
+    width: 100%;
+    border-radius: 12px;
+    background: #1A1D1D;
+    padding: 24px;
+}

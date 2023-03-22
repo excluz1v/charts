@@ -1,0 +1,15 @@
+
+.Campaign__table {
+    margin-top: 25px;
+    background: #1A1D1D;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.Table__header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
