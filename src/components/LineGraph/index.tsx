@@ -82,7 +82,7 @@ export const LineGraph = ()=>{
                 <Indicator title='eCPC' value='$0.23' />
                 <Indicator title='CTR' value='0.51%' />
             </div>
-            <Line options={options} data={data} />
+            <Line options={options} data={data} id={'232'} />
         </div>
         <div className={styles.Mark}>
             <Mark title='Impressions' count='1 259 347' color='#1EC4DC' />

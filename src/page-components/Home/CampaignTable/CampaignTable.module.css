@@ -1,11 +1,3 @@
-
-.Campaign__table {
-    margin-top: 25px;
-    background: #1A1D1D;
-    border-radius: 12px;
-    padding: 24px;
-}
-
 .Table__header {
     display: flex;
     justify-content: space-between;

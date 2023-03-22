@@ -1,0 +1,12 @@
+.Doughnuts{
+    display: flex;
+    column-gap: 24px;
+}
+.Doughnut__container {
+    width: 100%;
+    max-width: 650px;
+}
+.Doughnut__wrapper {
+    width: 100%;
+}
+

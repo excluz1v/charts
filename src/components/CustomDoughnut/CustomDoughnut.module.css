@@ -1,0 +1,41 @@
+.Mark {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.Doughnut {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Description {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    row-gap: 4px;
+    margin-bottom: 16px;
+}
+
+.Description__title {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    row-gap: 4px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.Description__value,.Description__percent{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.Description__percent {
+    opacity: 0.24;
+}
+
+.Doughnut__wrapper {
+    max-width: 300px;
+
+}

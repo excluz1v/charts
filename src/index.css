@@ -64,4 +64,12 @@ button:focus-visible {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 60px;
+}
+
+.wrapper {
+  margin-top: 25px;
+  background: #1A1D1D;
+  border-radius: 12px;
+  padding: 24px;
 }

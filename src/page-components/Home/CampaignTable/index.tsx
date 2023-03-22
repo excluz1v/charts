@@ -5,7 +5,7 @@ import {campaigns} from "../../../pages/Home/constants";
 import styles from "./CampaignTable.module.css";
 
 export const CampaignTable = ()=>{
-    return  <section className={styles.Campaign__table}>
+    return  <section className='wrapper'>
         <header className={styles.Table__header}>
             <p>Campaigns</p>
             <p><FontAwesomeIcon size='xl' icon={faGear}/></p>

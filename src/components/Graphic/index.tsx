@@ -71,7 +71,7 @@ export const data = {
 };
 
 export const Graphic = ()=>{
-    return <section className={styles.Graphic}>
+    return <section className='wrapper'>
         <Line options={options} data={data} />
     </section>
 }
