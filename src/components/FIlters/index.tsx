@@ -1,13 +1,25 @@
+import React, { useState } from "react";
+import DatePicker from "react-datepicker";
 import styles from "./Filter.module.css";
+import "react-datepicker/dist/react-datepicker.css";
 
 export const Filters = ()=>{
+    const [startDate, setStartDate] = useState(new Date());
+    const [endDate, setEndDate] = useState(null);
+    const onChange = (dates) => {
+        const [start, end] = dates;
+        setStartDate(start);
+        setEndDate(end);
+    };
     return  <div className={styles.Filters}>
-        <label>
-            <select>
-                <option value="" disabled selected>Выбор дат (от:до)</option>
-                <option value="hurr">тут будет выбор даты</option>
-            </select>
-        </label>
+        <div>
+            <DatePicker        selected={startDate}
+                               onChange={onChange}
+                               startDate={startDate}
+                               endDate={endDate}
+                               selectsRange
+                                />
+        </div>
         <label>
             <select>
                 <option value="" disabled selected>Рекламодатель</option>
@@ -25,3 +37,5 @@ export const Filters = ()=>{
         <input placeholder='Поиск'/>
     </div>
 }
+
+
