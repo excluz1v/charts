@@ -48,3 +48,29 @@ export const doughnutData = {
         borderColor: '#000'
     }]
 };
+
+
+export const progressData =[
+    {
+    text:'sunday',
+    value:100,
+},    {
+    text:'Monday',
+    value:100,
+},    {
+    text:'Tuesday',
+    value:100,
+},    {
+    text:'Wednesday',
+    value:100,
+},    {
+    text:'Thursday',
+    value:100,
+},    {
+    text:'Thursday',
+    value:100,
+},  {
+    text:'Saturday',
+    value:100,
+},
+]

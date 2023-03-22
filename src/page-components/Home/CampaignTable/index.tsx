@@ -8,7 +8,7 @@ export const CampaignTable = ()=>{
     return  <section className='wrapper'>
         <header className={styles.Table__header}>
             <p>Campaigns</p>
-            <p><FontAwesomeIcon size='xl' icon={faGear}/></p>
+            <button><FontAwesomeIcon size='xl' icon={faGear}/></button>
         </header>
         <CustomTable data={campaigns} sortable />
     </section>

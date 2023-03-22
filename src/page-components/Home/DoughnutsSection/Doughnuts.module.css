@@ -5,6 +5,9 @@
 .Doughnut__container {
     width: 100%;
     max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
 }
 .Doughnut__wrapper {
     width: 100%;

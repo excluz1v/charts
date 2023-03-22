@@ -23,3 +23,10 @@
     background: #1A1D1D;
     padding: 24px;
 }
+
+.Table__header button{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}

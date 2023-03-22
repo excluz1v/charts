@@ -3,3 +3,8 @@
     column-gap: 20px;
     align-items: center;
 }
+.Auth button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}

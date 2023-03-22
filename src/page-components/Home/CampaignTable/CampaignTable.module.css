@@ -5,3 +5,9 @@
     line-height: 24px;
     margin-bottom: 40px;
 }
+.Table__header button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}

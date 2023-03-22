@@ -23,7 +23,6 @@ export const options: PluginChartOptions<"doughnut"> & CoreChartOptions<"doughnu
         }
     },
     cutout: 125,
-
 };
 
 

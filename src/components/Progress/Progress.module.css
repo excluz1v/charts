@@ -1,0 +1,26 @@
+.Progress {
+    height: 8px;
+    background: rgba(255, 255, 255, 0.08);
+    width: 200px;
+    border-radius: 8px;
+}
+
+.Wrapper {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.Done {
+    background: #2474FF;
+    height: 8px;
+    border-radius: 8px;
+}
+
+.Text {
+    width: 80px;
+}
+
+.Percent {
+    text-align: right;
+}

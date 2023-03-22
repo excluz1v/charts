@@ -1,0 +1,31 @@
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.Footer__export,
+.Footer__row{
+    display: flex;
+    column-gap: 16px;
+}
+
+.Footer__contacts {
+    display: flex;
+    flex-direction: column;
+}
+.Export__button{
+    background: #A3A3A3;
+    height: 30px;
+    padding: 7px 14px;
+    width: 160px;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+    color: #000;
+    cursor: pointer;
+}
+.Footer__row p {
+    color: rgba(255, 255, 255, 0.48);
+}

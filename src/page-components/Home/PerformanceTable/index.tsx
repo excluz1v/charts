@@ -9,14 +9,14 @@ export const PerformanceTable = ()=>{
         <div className={styles.Table__wrapper}>
             <header className={styles.Table__header}>
                 <p>Best performing ads</p>
-                <p><FontAwesomeIcon size='xl' icon={faGear}/></p>
+                <button><FontAwesomeIcon size='xl' icon={faGear}/></button>
             </header>
             <CustomTable data={performance}  />
         </div>
         <div className={styles.Table__wrapper}>
             <header className={styles.Table__header}>
                 <p>Worst performing ads</p>
-                <p><FontAwesomeIcon size='xl' icon={faGear}/></p>
+                <button><FontAwesomeIcon size='xl' icon={faGear}/></button>
             </header>
             <CustomTable data={performance}  />
         </div>
