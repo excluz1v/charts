@@ -1,0 +1,33 @@
+.Table__header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.Table__header button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.Targets__table {
+    display: flex;
+    column-gap: 25px;
+}
+.Table {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    max-width: 270px;
+    width: 100%;
+}
+
+.Table__title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+}

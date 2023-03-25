@@ -4,7 +4,7 @@ import styles from "./Filter.module.css";
 import "react-datepicker/dist/react-datepicker.css";
 
 export const Filters = ()=>{
-    const [startDate, setStartDate] = useState(new Date());
+    const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null);
     const onChange = (dates) => {
         const [start, end] = dates;
@@ -21,15 +21,15 @@ export const Filters = ()=>{
                                 />
         </div>
         <label>
-            <select>
-                <option value="" disabled selected>Рекламодатель</option>
+            <select defaultValue={''}>
+                <option value="" disabled >Рекламодатель</option>
                 <option value="apple">apple</option>
                 <option value="yandex">yandex</option>
             </select>
         </label>
         <label>
-            <select>
-                <option value="" disabled selected>Компания</option>
+            <select  defaultValue={''}>
+                <option value="" disabled>Компания</option>
                 <option value="apple">apple</option>
                 <option value="yandex">yandex</option>
             </select>

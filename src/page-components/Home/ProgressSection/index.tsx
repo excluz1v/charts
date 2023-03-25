@@ -7,14 +7,14 @@ export const ProgressSection = ()=>{
     return <section className={styles.Progress}>
         <div className='wrapper'>
             <p className={styles.Progress__title}>Delivery by Weekday</p>
-            {progressData.map(el=>{
-                return <Progress text={el.text} percent={(el.value/totalSum*100).toFixed(2)} />
+            {progressData.map((el,index)=>{
+                return <Progress key={index} text={el.text} percent={(el.value/totalSum*100).toFixed(2)} />
             })}
         </div>
         <div className='wrapper'>
             <p className={styles.Progress__title}>Demography, city</p>
-            {progressData.map(el=>{
-                return <Progress text={el.text} percent={(el.value/totalSum*100).toFixed(2)} />
+            {progressData.map((el,index)=>{
+                return <Progress key={index} text={el.text} percent={(el.value/totalSum*100).toFixed(2)} />
             })}
         </div>
     </section>

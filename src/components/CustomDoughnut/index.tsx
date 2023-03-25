@@ -36,7 +36,7 @@ export const CustomDoughnut = ({data})=>{
             {doughnutData.datasets[0].data.map((d,index)=>{
                 const color=doughnutData.datasets[0].backgroundColor[index]
                 const label=doughnutData.labels[index]
-                return <div className={styles.Description}>
+                return <div className={styles.Description} key={index}>
                     <div className={styles.Description__title}>
                         <p className={styles.Mark} style={{backgroundColor:color}}></p>
                         <p style={{color:color}}>{label}</p>

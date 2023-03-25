@@ -1,0 +1,22 @@
+.Header {
+    display: flex;
+    column-gap: 25px;
+}
+.Header button {
+    font-size: 20px;
+    line-height: 24px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.List {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    list-style-type: none;
+    padding: 15px 40px;
+    background: #0C0C0C;
+    mix-blend-mode: normal;
+    border-radius: 12px;
+}

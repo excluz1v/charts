@@ -1,0 +1,14 @@
+.Navigation {
+    display: flex;
+    column-gap: 16px;
+    list-style-type: none;
+}
+
+.Active {
+    color: #fff;
+}
+
+.Inactive {
+    color: #fff;
+    opacity: 0.4;
+}
