@@ -9,8 +9,8 @@ export const Home = ()=>{
 
     return <section  className='container'>
         <h1>Overview</h1>
-        <Filters />
-        <LineGraph />
+        {/*<Filters />*/}
+        {/*<LineGraph />*/}
         <CampaignTable />
         <PerformanceTable/>
         <DoughnutsSection />
