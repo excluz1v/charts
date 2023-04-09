@@ -1,0 +1,17 @@
+
+.Login,
+.Logout {
+    border: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.Login {
+    background-color: yellowgreen;
+
+}
+
+.Logout {
+    background-color: deepskyblue;
+}

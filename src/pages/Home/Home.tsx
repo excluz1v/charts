@@ -6,6 +6,7 @@ import {DoughnutsSection} from "../../page-components/Home/DoughnutsSection";
 import {ProgressSection} from "../../page-components/Home/ProgressSection";
 
 export const Home = ()=>{
+
     return <section  className='container'>
         <h1>Overview</h1>
         <Filters />
