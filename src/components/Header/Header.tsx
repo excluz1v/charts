@@ -1,6 +1,7 @@
 import {Logo} from "../Logo/Logo";
-import {UserInfo} from "../UserInfo/UserInfo";
+import UserInfo from "../UserInfo/UserInfo";
 import {Navigation} from "../Navigation";
+
 import styles from './Header.module.css'
 
 export const Header = () =>{
@@ -8,8 +9,7 @@ export const Header = () =>{
         <div className={styles.Header__wrapper}>
             <Logo/>
             <Navigation/>
-            <UserInfo user={false} />
+            <UserInfo  />
         </div>
-
     </header>
 }

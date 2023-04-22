@@ -1,11 +1,11 @@
-import styles from './UserInfo.module.css'
 import {LoginButton} from "../Login/Button";
-import {useAuth0} from '@auth0/auth0-react'
+import {RootState} from "../../infrastructure/redux/store";
+import {loginRequest} from "../../infrastructure/modules/user/action";
+import {connect, ConnectedProps} from "react-redux";
 
-export const UserInfo = () => {
+import styles from './UserInfo.module.css'
 
-    const {user}= useAuth0()
-
+const UserInfo = ({user}) => {
     return <div className={styles.Auth}>
         {user && <>
             <span>
@@ -13,6 +13,17 @@ export const UserInfo = () => {
             </span>
             <img src={user.picture} alt={user.name} className={styles.avatar} />
         </>}
-        <LoginButton />
+        <LoginButton user={user} />
     </div>
 }
+
+const mapStateToProps = (state: RootState) => ({
+    user: state.user.user
+})
+const mapDispatchToProps = ({
+    getUsers: loginRequest
+})
+
+const connector = connect(mapStateToProps,mapDispatchToProps)
+type PropsFromRedux = ConnectedProps<typeof connector>
+export default connector(UserInfo)
