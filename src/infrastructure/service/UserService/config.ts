@@ -1,0 +1,11 @@
+export const BASE_URL = 'https://api.briskly.tech'
+
+export const LOGIN_URL = '/login'
+export const LOGOUT_URL = '/logout'
+export const FORGOT_PASSWORD_URL = '/forgot-password'
+export const RESET_PASSWORD_URL = '/reset-password'
+export const REGISTER_URL = '/register'
+export const UPDATE_USER_INFO_URL = '/user/profile-information'
+export const UPDATE_USER_PASSWORD_URL = '/user/password'
+export const GET_PASSWORD_STATUS_URL = '/user/confirmed-password-status'
+export const TRIGGER_COOKIE_URL = '/sanctum/csrf-cookie'

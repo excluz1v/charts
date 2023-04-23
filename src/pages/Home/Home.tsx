@@ -7,13 +7,9 @@ import {ProgressSection} from "../../page-components/Home/ProgressSection";
 import {RootState} from "../../infrastructure/redux/store";
 import {connect, ConnectedProps} from "react-redux";
 import {loginRequest} from "../../infrastructure/modules/user/action";
-import {useEffect} from "react";
 
-const Home = ({user,getUsers}:PropsFromRedux)=>{
-    console.log(getUsers)
-    useEffect(()=>{
-        getUsers()
-    },[])
+const Home = ({}:PropsFromRedux)=>{
+
     return <section  className='container'>
         <h1>Overview</h1>
         {/*<Filters />*/}

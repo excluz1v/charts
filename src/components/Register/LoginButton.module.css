@@ -52,8 +52,3 @@
 .button:active{
     transform: scale(0.9);
 }
-
-.button__wrapper {
-    display: flex;
-    column-gap: 30px;
-}

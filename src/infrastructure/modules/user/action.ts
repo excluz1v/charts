@@ -15,3 +15,18 @@ export const loginFailure = (payload)=>({
     payload
 })
 
+export const registerRequest = (payload)=>({
+    type: USER_ACTION_TYPES.REGISTER_REQUEST,
+    payload
+})
+
+export const registerSuccess = (payload)=>({
+    type: USER_ACTION_TYPES.REGISTER_SUCCESS,
+    payload
+})
+
+export const registerFailure = (payload)=>({
+    type: USER_ACTION_TYPES.REGISTER_FAILURE,
+    payload
+})
+
